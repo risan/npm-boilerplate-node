@@ -1,4 +1,4 @@
-# Send Request
+# NPM Boilerplate Node
 
 [![Build Status](https://flat.badgen.net/travis/risan/npm-boilerplate-node)](https://travis-ci.org/risan/npm-boilerplate-node)
 [![Test Coverage](https://flat.badgen.net/codeclimate/coverage/risan/npm-boilerplate-node)](https://codeclimate.com/github/risan/npm-boilerplate-node)
