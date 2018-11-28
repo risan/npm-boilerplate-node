@@ -1,0 +1,42 @@
+{
+  "name": "npm-boilerplate-node",
+  "version": "1.0.0",
+  "description": "NPM boilerplate for a Node library",
+  "keywords": [
+    "boilerplate"
+  ],
+  "homepage": "https://github.com/risan/npm-boilerplate-node#readme",
+  "bugs": {
+    "url": "https://github.com/risan/npm-boilerplate-node/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Risan Bagja Pradana",
+    "email": "risanbagja@gmail.com",
+    "url": "https://bagja.net"
+  },
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/risan/npm-boilerplate-node.git"
+  },
+  "scripts": {
+    "lint": "eslint ./",
+    "lint-fix": "eslint ./ --fix",
+    "prepublishOnly": "npm run lint && npm run test",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
