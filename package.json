@@ -1,7 +1,7 @@
 {
   "name": "npm-boilerplate-node",
   "version": "1.0.0",
-  "description": "NPM boilerplate for a Node library",
+  "description": "Boilerplate for creating an NPM module for Node environment",
   "keywords": [
     "boilerplate"
   ],
