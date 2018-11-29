@@ -46,7 +46,25 @@ foo(bar, [baz])
 
 It returns a `Promise` which when resolved contains something.
 
-## Scripts
+## Usage
+
+Download the boilerpate:
+
+```bash
+wget https://github.com/risan/npm-boilerplate-node/archive/master.zip \
+    -O my-package.zip && \
+    unzip my-package.zip && \
+    mv npm-boilerplate-node-master my-package && \
+    rm my-package.zip
+```
+
+Opinionated features:
+
+* [Jest](https://jestjs.io/) for testing.
+* [ESLint](https://eslint.org/) for linting.
+* [Prettier](https://prettier.io/) for code formatting.
+* [Travis CI](https://travis-ci.org/) for continous integration.
+* [Code Climate](https://codeclimate.com/quality/) for test coverage and code quality.
 
 Available scripts:
 
