@@ -8,7 +8,7 @@
 [![Code Style: Prettier](https://flat.badgen.net/badge/code%20style/prettier/ff69b4)](https://github.com/prettier/prettier)
 [![License](https://flat.badgen.net/npm/license/npm-boilerplate-node)](https://github.com/risan/send-request/blob/master/LICENSE)
 
-NPM boilerplate for a Node library.
+Boilerplate for creating an NPM module for Node environment.
 
 ## Install
 
@@ -53,6 +53,10 @@ Available scripts:
 * `yarn lint`: Run the linter.
 * `yarn lint-fix`: Apply the linter fixes.
 * `yarn test`: Run the tests.
+
+## Related
+
+* [npm-boilerplate-node-browser](https://github.com/risan/npm-boilerplate-node-browser): Boilerplate for creating an NPM module both for Node and browser environments.
 
 ## License
 
