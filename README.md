@@ -6,7 +6,7 @@
 [![Latest Stable Version](https://flat.badgen.net/npm/v/npm-boilerplate-node)](https://www.npmjs.com/package/npm-boilerplate-node)
 [![Node Version](https://flat.badgen.net/npm/node/npm-boilerplate-node)](https://www.npmjs.com/package/npm-boilerplate-node)
 [![Code Style: Prettier](https://flat.badgen.net/badge/code%20style/prettier/ff69b4)](https://github.com/prettier/prettier)
-[![License](https://flat.badgen.net/npm/license/npm-boilerplate-node)](https://github.com/risan/send-request/blob/master/LICENSE)
+[![License](https://flat.badgen.net/npm/license/npm-boilerplate-node)](https://github.com/risan/npm-boilerplate-node/blob/master/LICENSE)
 
 Boilerplate for creating an NPM module for Node environment.
 
@@ -52,10 +52,10 @@ Download the boilerpate:
 
 ```bash
 wget https://github.com/risan/npm-boilerplate-node/archive/master.zip \
-    -O my-package.zip && \
-    unzip my-package.zip && \
+    -O master.zip && \
+    unzip master.zip && \
     mv npm-boilerplate-node-master my-package && \
-    rm my-package.zip
+    rm master.zip
 ```
 
 Opinionated features:
