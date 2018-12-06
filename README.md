@@ -7,7 +7,7 @@
 
 Boilerplate for creating an NPM module for Node environment.
 
-## Install
+## Installation
 
 ```bash
 $ npm install npm-boilerplate-node
@@ -40,7 +40,15 @@ foo(bar, [baz])
 
 It returns a `Promise` which when resolved contains something.
 
-## Developing NPM Module
+## Related
+
+* [npm-boilerplate-node-browser](https://github.com/risan/npm-boilerplate-node-browser): Boilerplate for creating an NPM module both for Node and browser environments.
+
+## License
+
+[MIT](https://github.com/risan/npm-boilerplate-node/blob/master/LICENSE) © [Risan Bagja Pradana](https://bagja.net)
+
+## Using the Boilerplate
 
 Download the boilerpate:
 
@@ -69,11 +77,3 @@ Third-party services:
 * [Travis CI](https://travis-ci.org/) for continous integration.
 * [Codecov](https://codecov.io/) for test coverage report.
 * [Greenkeeper](https://greenkeeper.io/) for automated dependency management.
-
-## Related
-
-* [npm-boilerplate-node-browser](https://github.com/risan/npm-boilerplate-node-browser): Boilerplate for creating an NPM module both for Node and browser environments.
-
-## License
-
-[MIT](https://github.com/risan/npm-boilerplate-node/blob/master/LICENSE) © [Risan Bagja Pradana](https://bagja.net)
