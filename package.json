@@ -1,9 +1,11 @@
 {
   "name": "npm-boilerplate-node",
   "version": "1.0.0",
-  "description": "Boilerplate for creating an NPM module for Node environment",
+  "description": "Boilerplate for creating an NPM module for Node environment.",
   "keywords": [
-    "boilerplate"
+    "boilerplate",
+    "node",
+    "npm"
   ],
   "homepage": "https://github.com/risan/npm-boilerplate-node#readme",
   "bugs": {

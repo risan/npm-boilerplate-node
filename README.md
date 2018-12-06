@@ -1,12 +1,9 @@
 # NPM Boilerplate Node
 
-[![Build Status](https://flat.badgen.net/travis/risan/npm-boilerplate-node)](https://travis-ci.org/risan/npm-boilerplate-node)
-[![Test Coverage](https://flat.badgen.net/codeclimate/coverage/risan/npm-boilerplate-node)](https://codeclimate.com/github/risan/npm-boilerplate-node)
-[![Maintainability](https://flat.badgen.net/codeclimate/maintainability/risan/npm-boilerplate-node)](https://codeclimate.com/github/risan/npm-boilerplate-node)
-[![Latest Stable Version](https://flat.badgen.net/npm/v/npm-boilerplate-node)](https://www.npmjs.com/package/npm-boilerplate-node)
-[![Node Version](https://flat.badgen.net/npm/node/npm-boilerplate-node)](https://www.npmjs.com/package/npm-boilerplate-node)
-[![Code Style: Prettier](https://flat.badgen.net/badge/code%20style/prettier/ff69b4)](https://github.com/prettier/prettier)
-[![License](https://flat.badgen.net/npm/license/npm-boilerplate-node)](https://github.com/risan/npm-boilerplate-node/blob/master/LICENSE)
+[![Build Status](https://flat.badgen.net/travis/risan/npm-boilerplate-note)](https://travis-ci.org/risan/npm-boilerplate-note)
+[![Test Covarage](https://flat.badgen.net/codecov/c/github/risan/npm-boilerplate-note)](https://codecov.io/gh/risan/npm-boilerplate-note)
+[![Greenkeeper](https://badges.greenkeeper.io/risan/npm-boilerplate-note.svg?style=flat-square)](https://greenkeeper.io)
+[![Latest Version](https://flat.badgen.net/npm/v/npm-boilerplate-note)](https://www.npmjs.com/package/npm-boilerplate-note)
 
 Boilerplate for creating an NPM module for Node environment.
 
@@ -14,12 +11,9 @@ Boilerplate for creating an NPM module for Node environment.
 
 ```bash
 $ npm install npm-boilerplate-node
-
-# Or if you use Yarn
-$ yarn add npm-boilerplate-node
 ```
 
-## Quick Start
+## Usage
 
 ```js
 const foo = require("npm-boilerplate-node");
@@ -46,7 +40,7 @@ foo(bar, [baz])
 
 It returns a `Promise` which when resolved contains something.
 
-## Usage
+## Developing NPM Module
 
 Download the boilerpate:
 
@@ -58,19 +52,23 @@ wget https://github.com/risan/npm-boilerplate-node/archive/master.zip \
     rm master.zip
 ```
 
-Opinionated features:
+Toolings:
 
 * [Jest](https://jestjs.io/) for testing.
 * [ESLint](https://eslint.org/) for linting.
 * [Prettier](https://prettier.io/) for code formatting.
-* [Travis CI](https://travis-ci.org/) for continous integration.
-* [Code Climate](https://codeclimate.com/quality/) for test coverage and code quality.
 
 Available scripts:
 
-* `yarn lint`: Run the linter.
-* `yarn lint-fix`: Apply the linter fixes.
-* `yarn test`: Run the tests.
+* `npm run lint`: Run the linter.
+* `npm run lint-fix`: Apply the linter fixes.
+* `npm run test`: Run the tests.
+
+Third-party services:
+
+* [Travis CI](https://travis-ci.org/) for continous integration.
+* [Codecov](https://codecov.io/) for test coverage report.
+* [Greenkeeper](https://greenkeeper.io/) for automated dependency management.
 
 ## Related
 
@@ -78,4 +76,4 @@ Available scripts:
 
 ## License
 
-MIT © [Risan Bagja Pradana](https://bagja.net)
+[MIT](https://github.com/risan/npm-boilerplate-node/blob/master/LICENSE) © [Risan Bagja Pradana](https://bagja.net)
