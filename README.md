@@ -1,9 +1,9 @@
 # NPM Boilerplate Node
 
-[![Build Status](https://flat.badgen.net/travis/risan/npm-boilerplate-note)](https://travis-ci.org/risan/npm-boilerplate-note)
-[![Test Covarage](https://flat.badgen.net/codecov/c/github/risan/npm-boilerplate-note)](https://codecov.io/gh/risan/npm-boilerplate-note)
-[![Greenkeeper](https://badges.greenkeeper.io/risan/npm-boilerplate-note.svg?style=flat-square)](https://greenkeeper.io)
-[![Latest Version](https://flat.badgen.net/npm/v/npm-boilerplate-note)](https://www.npmjs.com/package/npm-boilerplate-note)
+[![Build Status](https://flat.badgen.net/travis/risan/npm-boilerplate-node)](https://travis-ci.org/risan/npm-boilerplate-node)
+[![Test Covarage](https://flat.badgen.net/codecov/c/github/risan/npm-boilerplate-node)](https://codecov.io/gh/risan/npm-boilerplate-node)
+[![Greenkeeper](https://badges.greenkeeper.io/risan/npm-boilerplate-node.svg?style=flat-square)](https://greenkeeper.io)
+[![Latest Version](https://flat.badgen.net/npm/v/npm-boilerplate-node)](https://www.npmjs.com/package/npm-boilerplate-node)
 
 Boilerplate for creating an NPM module for Node environment.
 
